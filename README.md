@@ -24,16 +24,13 @@ import java.util.Scanner;
         
         
         for(int i = 0; i < word.length(); i++){
-         
-            System.out.println(word.substring(i, i+1) + " ");
+            for(int i = word.length()-1; i>=0; i--){
             
-        }
-        
-        for(int i = word.length()-1; i>=0; i--){
-            String hey=lastIndexOf();
+            
+            System.out.print(word.substring(i, i+1) + " ");
             System.out.println(word.substring(i,i+1) + " "); 
-            
         }
+    }
         
         
         System.out.println(word);
